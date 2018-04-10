@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bin/lib/junit.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/lib/ktn_package.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/lib/jlfgr-1_0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/lib/derby.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/lib/jdom.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/lib/ojdbc14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/lib/xom-1.0b5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
