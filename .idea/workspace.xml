@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bc9d147-43e2-446b-9916-792c84c4cd63" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/no/ntnu/fp/unittests/ProjectTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SoCam.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SoCam.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/ntnu/fp/unittests/ProjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/ntnu/fp/unittests/ProjectTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,17 +15,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/SoCam$no_ntnu_fp_unittests_in_SoCam.ic" NAME="no.ntnu.fp.unittests in SoCam Coverage Results" MODIFIED="1523985372351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/SoCam$no_ntnu_fp_unittests_in_SoCam.ic" NAME="no.ntnu.fp.unittests in SoCam Coverage Results" MODIFIED="1523985819183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>no.ntnu.fp.unittests.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/SoCam$All_in_SoCam.ic" NAME="All in SoCam Coverage Results" MODIFIED="1523985991479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Project.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/ntnu/fp/model/Project.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2491">
-              <caret line="147" column="24" lean-forward="true" selection-start-line="147" selection-start-column="16" selection-end-line="147" selection-end-column="24" />
+            <state relative-caret-position="1958">
+              <caret line="147" column="24" selection-start-line="147" selection-start-column="16" selection-end-line="147" selection-end-column="24" />
+              <folding>
+                <element signature="e#1212#1213#0" expanded="true" />
+                <element signature="e#1243#1244#0" expanded="true" />
+                <element signature="e#1815#1816#0" expanded="true" />
+                <element signature="e#1854#1855#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -33,10 +40,12 @@
       <file leaf-file-name="ProjectTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/no/ntnu/fp/unittests/ProjectTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="263">
+              <caret line="53" column="75" selection-start-line="53" selection-start-column="75" selection-end-line="53" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#757#758#0" expanded="true" />
+                <element signature="e#794#795#0" expanded="true" />
                 <element signature="e#800#801#0" expanded="true" />
                 <element signature="e#866#867#0" expanded="true" />
               </folding>
@@ -86,7 +95,7 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -109,33 +118,40 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="fp" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SoCam" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoCam" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fp" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SoCam" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoCam" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fp" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SoCam" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoCam" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fp" type="462c0819:PsiDirectoryNode" />
-              <item name="unittests" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="SoCam" type="cbb8eebc:String" user="SoCam" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="SoCam" type="cbb8eebc:String" user="SoCam" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="SoCam" type="cbb8eebc:String" user="SoCam" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="no/ntnu/fp" type="cbb8eebc:String" user="no/ntnu/fp" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="SoCam" type="cbb8eebc:String" user="SoCam" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="no/ntnu/fp" type="cbb8eebc:String" user="no/ntnu/fp" />
+              <item name="unittests" type="cbb8eebc:String" user="unittests" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -147,6 +163,10 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/no/ntnu/fp/unittests" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -168,18 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.no.ntnu.fp.unittests in SoCam">
-    <configuration name="CreateGarageDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="no.ntnu.fp.storage.CreateGarageDB" />
-      <module name="SoCam" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="no.ntnu.fp.storage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ProjectTest">
     <configuration name="FactoryProjectPanel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="no.ntnu.fp.gui.FactoryProjectPanel" />
       <module name="SoCam" />
@@ -187,17 +196,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="no.ntnu.fp.gui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="InsertTestDataFactoryDb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="no.ntnu.fp.storage.InsertTestDataFactoryDb" />
-      <module name="SoCam" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="no.ntnu.fp.storage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,6 +213,46 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="All in SoCam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SoCam" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ProjectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SoCam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.ntnu.fp.unittests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="no.ntnu.fp.unittests.ProjectTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -278,19 +316,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.CreateGarageDB" />
-      <item itemvalue="Application.InsertTestDataFactoryDb" />
       <item itemvalue="Application.InsertTestDataGarageDb" />
       <item itemvalue="Application.FactoryProjectPanel" />
       <item itemvalue="JUnit.no.ntnu.fp.unittests in SoCam" />
+      <item itemvalue="JUnit.All in SoCam" />
+      <item itemvalue="JUnit.ProjectTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProjectTest" />
+        <item itemvalue="JUnit.All in SoCam" />
         <item itemvalue="JUnit.no.ntnu.fp.unittests in SoCam" />
         <item itemvalue="Application.FactoryProjectPanel" />
         <item itemvalue="Application.InsertTestDataGarageDb" />
-        <item itemvalue="Application.InsertTestDataFactoryDb" />
-        <item itemvalue="Application.CreateGarageDB" />
       </list>
     </recent_temporary>
   </component>
@@ -305,17 +343,44 @@
       <option name="presentableId" value="Default" />
       <updated>1523271325626</updated>
       <workItem from="1523271329145" duration="3589000" />
-      <workItem from="1523984797486" duration="984000" />
+      <workItem from="1523984797486" duration="2214000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="no_ntnu_fp_unittests_in_SoCam - 2018.04.17 at 19h 16m 13s.xml">
+    <history-entry file="no_ntnu_fp_unittests_in_SoCam - 2018.04.17 at 19h 23m 08s.xml">
       <configuration name="no.ntnu.fp.unittests in SoCam" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="no_ntnu_fp_unittests_in_SoCam - 2018.04.17 at 19h 23m 40s.xml">
+      <configuration name="no.ntnu.fp.unittests in SoCam" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_SoCam - 2018.04.17 at 19h 26m 33s.xml">
+      <configuration name="All in SoCam" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectTest - 2018.04.17 at 19h 32m 30s.xml">
+      <configuration name="ProjectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectTest - 2018.04.17 at 19h 33m 01s.xml">
+      <configuration name="ProjectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectTest - 2018.04.17 at 19h 33m 43s.xml">
+      <configuration name="ProjectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectTest - 2018.04.17 at 19h 37m 01s.xml">
+      <configuration name="ProjectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectTest - 2018.04.17 at 19h 38m 41s.xml">
+      <configuration name="ProjectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectTest - 2018.04.17 at 19h 38m 51s.xml">
+      <configuration name="ProjectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectTest - 2018.04.17 at 19h 39m 04s.xml">
+      <configuration name="ProjectTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4573000" />
+    <option name="totallyTimeSpent" value="5803000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -430,17 +495,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/no/ntnu/fp/model/Project.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2491">
-          <caret line="147" column="24" lean-forward="true" selection-start-line="147" selection-start-column="16" selection-end-line="147" selection-end-column="24" />
+        <state relative-caret-position="1958">
+          <caret line="147" column="24" selection-start-line="147" selection-start-column="16" selection-end-line="147" selection-end-column="24" />
+          <folding>
+            <element signature="e#1212#1213#0" expanded="true" />
+            <element signature="e#1243#1244#0" expanded="true" />
+            <element signature="e#1815#1816#0" expanded="true" />
+            <element signature="e#1854#1855#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/no/ntnu/fp/unittests/ProjectTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="263">
+          <caret line="53" column="75" selection-start-line="53" selection-start-column="75" selection-end-line="53" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
             <element signature="e#800#801#0" expanded="true" />
             <element signature="e#866#867#0" expanded="true" />
           </folding>
@@ -450,9 +523,81 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SoCam</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Arquillian JUnit:Release</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
