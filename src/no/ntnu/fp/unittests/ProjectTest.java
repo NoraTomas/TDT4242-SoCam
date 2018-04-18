@@ -85,6 +85,19 @@ class ProjectTest {
 
     }
 
+    @org.junit.jupiter.api.Test
+    void getPersonIndex_returns_minus_one_when_no_person_is_found(){
+        int nonExistingIndex = project.getPersonIndex(10);
+
+        Assert.assertEquals(-1, nonExistingIndex);
+    }
+
+    @org.junit.jupiter.api.Test
+    void indexOf_returns_correct_index(){
+        //Finish later
+
+    }
+
     @org.junit.jupiter.api.AfterEach
     void tearDown() {
     }
