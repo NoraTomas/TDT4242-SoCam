@@ -1,5 +1,3 @@
-package no.ntnu.fp.unittests;
-
 import no.ntnu.fp.model.Person;
 import no.ntnu.fp.model.Project;
 import org.junit.Assert;
@@ -22,6 +20,17 @@ class ProjectTest {
         persons.add(new Person(5));
         persons.add(new Person(-3));
         persons.add(new Person(0));
+
+        persons.get(0).setName("Anna Jones");
+        persons.get(1).setName("Joshua Miles");
+        persons.get(2).setName("Josh Smith");
+        persons.get(3).setName("Ørjan Kim");
+
+        persons.get(0).setVehicleID("1");
+        persons.get(1).setVehicleID("2");
+        persons.get(2).setVehicleID("3");
+        persons.get(3).setVehicleID("4");
+
 
         for(Person person : persons){
             project.addPerson(person);
@@ -52,6 +61,28 @@ class ProjectTest {
         Person firstPersonInProject = project.getPerson(1);
 
         Assert.assertEquals(firstPersonInPersonList, firstPersonInProject);
+    }
+
+    @org.junit.jupiter.api.Test
+    void getPersonIndex_returns_correct_persons(){
+        ArrayList<Integer> personsSearch = project.getPersonIndex("Josh");
+        int firstPersonInSearchResultID = personsSearch.get(0);
+        int secondPersonInSearchResultIT = personsSearch.get(1);
+
+        Assert.assertEquals(5, firstPersonInSearchResultID);
+        Assert.assertEquals(-3, secondPersonInSearchResultIT);
+
+    }
+
+    @org.junit.jupiter.api.Test
+    void getPersonIndex_returns_correct_veichle_owner(){
+        int personThatOwnsVehicleID = project.getPersonIndex(2);
+
+        //ViechleID=2 was assigned to Joshua Miles which has custID=5
+        //Therefore, the ID of the veichle owner should be 5
+
+        Assert.assertEquals(5, personThatOwnsVehicleID);
+
     }
 
     @org.junit.jupiter.api.AfterEach
