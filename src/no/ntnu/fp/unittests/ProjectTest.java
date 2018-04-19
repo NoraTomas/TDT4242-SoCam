@@ -94,8 +94,15 @@ class ProjectTest {
 
     @org.junit.jupiter.api.Test
     void indexOf_returns_correct_index(){
-        //Finish later
+        Person indexOne = persons.get(0);
+        Person indexOneFromPorject = project.getPerson(0);
 
+        Assert.assertEquals(indexOne, indexOneFromPorject);
+    }
+
+    @org.junit.jupiter.api.Test
+    void iterator_returns_correct_iterator(){
+        //Finn ut hvordan man skriver dette 
     }
 
     @org.junit.jupiter.api.AfterEach
