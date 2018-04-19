@@ -102,8 +102,29 @@ class ProjectTest {
 
     @org.junit.jupiter.api.Test
     void iterator_returns_correct_iterator(){
-        //Finn ut hvordan man skriver dette 
+        //Finn ut hvordan man skriver dette
     }
+
+    @org.junit.jupiter.api.Test
+    void addPerson_adds_person(){
+        project.addPerson(persons.get(0));
+
+        Assert.assertEquals(project.getPerson(0), persons.get(0));
+    }
+
+    @org.junit.jupiter.api.Test
+    void contains_contains_added_person(){
+        Assert.assertEquals(project.contains(persons.get(0)), true);
+    }
+
+    @org.junit.jupiter.api.Test
+    void removePerson_removes_person(){
+        Person toBeRemoved = project.getPerson(0);
+        project.removePerson(toBeRemoved);
+
+        Assert.assertEquals(project.contains(toBeRemoved), false);
+    }
+
 
     @org.junit.jupiter.api.AfterEach
     void tearDown() {
