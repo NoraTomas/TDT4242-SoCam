@@ -2,6 +2,7 @@ import no.ntnu.fp.model.Person;
 import no.ntnu.fp.model.Project;
 import org.junit.Assert;
 
+import java.beans.PropertyChangeListener;
 import java.util.ArrayList;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -124,6 +125,42 @@ class ProjectTest {
 
         Assert.assertEquals(project.contains(toBeRemoved), false);
     }
+
+    @org.junit.jupiter.api.Test
+    void add_propertyChangeListener_adds_listener(){
+        //Figure out how to do this
+    }
+
+    @org.junit.jupiter.api.Test
+    void equals_returns_different_object(){
+        Project toBeCompared = new Project();
+
+        toBeCompared.addPerson(new Person(1));
+        toBeCompared.addPerson(new Person(2));
+        toBeCompared.addPerson(new Person(3));
+        toBeCompared.addPerson(new Person(4));
+
+
+        Assert.assertEquals(false, toBeCompared.equals(project));
+
+    }
+
+    @org.junit.jupiter.api.Test
+    void toString_returns_correct_string(){
+        for (Person person : persons){
+            project.removePerson(person);
+        }
+
+        project.addPerson(new Person(1));
+
+        String projectString = "project:\n" +
+                "Name: ; Email: ; Street: \n" +
+                "";
+
+        Assert.assertEquals(projectString, project.toString());
+    }
+
+
 
 
     @org.junit.jupiter.api.AfterEach
