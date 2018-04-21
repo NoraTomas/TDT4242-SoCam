@@ -2,6 +2,7 @@ import no.ntnu.fp.model.Person;
 import no.ntnu.fp.model.Project;
 import org.junit.Assert;
 
+import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.util.ArrayList;
 
@@ -128,7 +129,7 @@ class ProjectTest {
 
     @org.junit.jupiter.api.Test
     void add_propertyChangeListener_adds_listener(){
-        //Figure out how to do this
+
     }
 
     @org.junit.jupiter.api.Test

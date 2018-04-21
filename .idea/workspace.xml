@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Project.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Project.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/no/ntnu/fp/model/Project.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="240" column="8" lean-forward="true" selection-start-line="240" selection-start-column="8" selection-end-line="240" selection-end-column="32" />
+            <state relative-caret-position="470">
+              <caret line="195" column="47" selection-start-line="195" selection-start-column="23" selection-end-line="195" selection-end-column="48" />
               <folding>
                 <element signature="e#1212#1213#0" expanded="true" />
                 <element signature="e#1243#1244#0" expanded="true" />
@@ -42,25 +42,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProjectTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PropertyChangeSupport.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/beans/PropertyChangeSupport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProjectTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/ntnu/fp/unittests/ProjectTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="155" column="45" selection-start-line="155" selection-start-column="45" selection-end-line="155" selection-end-column="45" />
+            <state relative-caret-position="168">
+              <caret line="131" selection-start-line="131" selection-end-line="131" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3439#3440#0" expanded="true" />
                 <element signature="e#3509#3510#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/no/ntnu/fp/model/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1297">
-              <caret line="282" column="35" lean-forward="true" selection-start-line="282" selection-start-column="35" selection-end-line="282" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -95,7 +95,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -103,7 +103,7 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -395,29 +395,11 @@
       <updated>1523271325626</updated>
       <workItem from="1523271329145" duration="3589000" />
       <workItem from="1523984797486" duration="2214000" />
-      <workItem from="1523987369200" duration="10647000" />
+      <workItem from="1523987369200" duration="11974000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_SoCam - 2018.04.19 at 11h 32m 16s.xml">
-      <configuration name="All in SoCam" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProjectTest_(1) - 2018.04.20 at 12h 39m 03s.xml">
-      <configuration name="ProjectTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProjectTest_(1) - 2018.04.20 at 12h 39m 13s.xml">
-      <configuration name="ProjectTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProjectTest_(1) - 2018.04.20 at 12h 43m 18s.xml">
-      <configuration name="ProjectTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProjectTest_(1) - 2018.04.20 at 12h 43m 47s.xml">
-      <configuration name="ProjectTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProjectTest_(1) - 2018.04.20 at 12h 53m 24s.xml">
-      <configuration name="ProjectTest (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ProjectTest_(1) - 2018.04.20 at 12h 53m 42s.xml">
       <configuration name="ProjectTest (1)" configurationId="JUnit" />
     </history-entry>
@@ -430,13 +412,30 @@
     <history-entry file="ProjectTest_(1) - 2018.04.20 at 13h 12m 34s.xml">
       <configuration name="ProjectTest (1)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ProjectTest_(1) - 2018.04.20 at 13h 15m 01s.xml">
+      <configuration name="ProjectTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectTest_(1) - 2018.04.20 at 13h 15m 36s.xml">
+      <configuration name="ProjectTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectTest_(1) - 2018.04.20 at 13h 16m 03s.xml">
+      <configuration name="ProjectTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectTest_(1) - 2018.04.20 at 13h 17m 06s.xml">
+      <configuration name="ProjectTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectTest_(1) - 2018.04.20 at 13h 17m 27s.xml">
+      <configuration name="ProjectTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectTest_(1) - 2018.04.20 at 13h 18m 05s.xml">
+      <configuration name="ProjectTest (1)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16450000" />
+    <option name="totallyTimeSpent" value="17777000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -448,12 +447,12 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32968536" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.2643229" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33378932" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.2643229" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22526042" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22526042" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -468,6 +467,37 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33378932" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22526042" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="UI Designer" order="5" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info active="true" anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.2643229" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -582,13 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/ntnu/fp/model/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1297">
-          <caret line="282" column="35" lean-forward="true" selection-start-line="282" selection-start-column="35" selection-end-line="282" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/beans/PropertyChangeListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -596,10 +619,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/ntnu/fp/model/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="282" column="35" lean-forward="true" selection-start-line="282" selection-start-column="35" selection-end-line="282" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/ntnu/fp/unittests/ProjectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3439#3440#0" expanded="true" />
+            <element signature="e#3509#3510#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/beans/PropertyChangeSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/no/ntnu/fp/model/Project.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="240" column="8" lean-forward="true" selection-start-line="240" selection-start-column="8" selection-end-line="240" selection-end-column="32" />
+        <state relative-caret-position="470">
+          <caret line="195" column="47" selection-start-line="195" selection-start-column="23" selection-end-line="195" selection-end-column="48" />
           <folding>
             <element signature="e#1212#1213#0" expanded="true" />
             <element signature="e#1243#1244#0" expanded="true" />
@@ -611,18 +660,6 @@
             <element signature="e#3311#3312#0" expanded="true" />
             <element signature="e#7002#7003#0" expanded="true" />
             <element signature="e#7049#7050#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/ntnu/fp/unittests/ProjectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="155" column="45" selection-start-line="155" selection-start-column="45" selection-end-line="155" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3439#3440#0" expanded="true" />
-            <element signature="e#3509#3510#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -644,7 +681,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -704,7 +741,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Arquillian JUnit:Release</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
