@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bc9d147-43e2-446b-9916-792c84c4cd63" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/no/ntnu/fp/unittests/PersonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/ntnu/fp/unittests/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/ntnu/fp/unittests/PersonTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +17,7 @@
       <FILTER>no.ntnu.fp.unittests.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/SoCam$ProjectTest__1_.ic" NAME="ProjectTest (1) Coverage Results" MODIFIED="1524292478358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/SoCam$All_in_SoCam.ic" NAME="All in SoCam Coverage Results" MODIFIED="1524293331901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SoCam$All_in_SoCam.ic" NAME="All in SoCam Coverage Results" MODIFIED="1524293751409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -46,8 +45,8 @@
       <file leaf-file-name="ProjectTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/ntnu/fp/unittests/ProjectTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="13" column="25" lean-forward="true" selection-end-line="169" selection-end-column="1" />
+            <state relative-caret-position="-1708">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3439#3440#0" expanded="true" />
@@ -60,8 +59,8 @@
       <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/ntnu/fp/model/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3592">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="302">
+              <caret line="176" column="5" lean-forward="true" selection-start-line="176" selection-start-column="5" selection-end-line="176" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -69,8 +68,8 @@
       <file leaf-file-name="PersonTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/no/ntnu/fp/unittests/PersonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="24" column="70" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="70" />
+            <state relative-caret-position="299">
+              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -427,23 +426,11 @@
       <updated>1523271325626</updated>
       <workItem from="1523271329145" duration="3589000" />
       <workItem from="1523984797486" duration="2214000" />
-      <workItem from="1523987369200" duration="12817000" />
+      <workItem from="1523987369200" duration="13081000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProjectTest_(1) - 2018.04.20 at 13h 11m 59s.xml">
-      <configuration name="ProjectTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProjectTest_(1) - 2018.04.20 at 13h 12m 34s.xml">
-      <configuration name="ProjectTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProjectTest_(1) - 2018.04.20 at 13h 15m 01s.xml">
-      <configuration name="ProjectTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProjectTest_(1) - 2018.04.20 at 13h 15m 36s.xml">
-      <configuration name="ProjectTest (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ProjectTest_(1) - 2018.04.20 at 13h 16m 03s.xml">
       <configuration name="ProjectTest (1)" configurationId="JUnit" />
     </history-entry>
@@ -462,9 +449,21 @@
     <history-entry file="All_in_SoCam - 2018.04.21 at 08h 43m 24s.xml">
       <configuration name="All in SoCam" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PersonTest - 2018.04.21 at 08h 48m 42s.xml">
+      <configuration name="PersonTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_SoCam - 2018.04.21 at 08h 48m 54s.xml">
+      <configuration name="All in SoCam" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_SoCam - 2018.04.21 at 08h 52m 04s.xml">
+      <configuration name="All in SoCam" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_SoCam - 2018.04.21 at 08h 52m 28s.xml">
+      <configuration name="All in SoCam" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18620000" />
+    <option name="totallyTimeSpent" value="18884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -504,7 +503,7 @@
       <window_info id="Designer" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33378932" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33242133" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -660,8 +659,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/no/ntnu/fp/unittests/ProjectTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="13" column="25" lean-forward="true" selection-end-line="169" selection-end-column="1" />
+        <state relative-caret-position="-1708">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3439#3440#0" expanded="true" />
@@ -691,15 +690,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/no/ntnu/fp/model/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3592">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="302">
+          <caret line="176" column="5" lean-forward="true" selection-start-line="176" selection-start-column="5" selection-end-line="176" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/no/ntnu/fp/unittests/PersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="24" column="70" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="70" />
+        <state relative-caret-position="299">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

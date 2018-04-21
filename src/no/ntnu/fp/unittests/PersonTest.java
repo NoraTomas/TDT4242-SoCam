@@ -25,6 +25,18 @@ class PersonTest {
         Assert.assertEquals("lindaNewMail@gmail.com", linda.getEmail() );
     }
 
+    @org.junit.jupiter.api.Test
+    void set_street_changes_street(){
+        linda.setStreet("Time Street");
+        Assert.assertEquals("Time Street", linda.getStreet());
+    }
+
+    @org.junit.jupiter.api.Test
+    void set_city_changes_city(){
+        linda.setCity("Trondheim");
+        Assert.assertEquals("Trondheim", linda.getCity());
+    }
+
 
 
     @org.junit.jupiter.api.AfterEach
