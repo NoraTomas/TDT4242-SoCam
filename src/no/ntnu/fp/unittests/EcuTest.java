@@ -34,6 +34,39 @@ class EcuTest {
     }
 
     @org.junit.jupiter.api.AfterEach
+    void getISwId_returns_SWID(){
+        Assert.assertEquals(-3 , ecuTwo.getSwId());
+    }
+
+    @org.junit.jupiter.api.AfterEach
+    void swtSwId_changes_SwId(){
+        ecuOne.setSwId(40);
+        Assert.assertEquals(40, ecuOne.getSwId());
+    }
+
+    @org.junit.jupiter.api.AfterEach
+    void getSubSwId_returns_SwID(){
+        Assert.assertEquals(7, ecuThree.getSubSwId());
+    }
+
+    @org.junit.jupiter.api.AfterEach
+    void setSubSwId_sets_new_subSwId(){
+        ecuThree.setSubSwId(50);
+        Assert.assertEquals(50, ecuThree.getSubSwId());
+    }
+
+    @org.junit.jupiter.api.AfterEach
+    void isNewest_retuns_newest_boolean(){
+        Assert.assertEquals(true, ecuThree.isNewest());
+    }
+
+    @org.junit.jupiter.api.AfterEach
+    void setNewest_changes_isNewest(){
+        ecuThree.setNewest(false);
+        //Assert.assertEquals(false, ecuThree.ge);
+    }
+
+    @org.junit.jupiter.api.AfterEach
     void tearDown() {
     }
 
