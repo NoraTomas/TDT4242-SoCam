@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bc9d147-43e2-446b-9916-792c84c4cd63" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/no/ntnu/fp/unittests/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/ntnu/fp/unittests/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/no/ntnu/fp/unittests/EcuTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,15 +18,15 @@
       <FILTER>no.ntnu.fp.unittests.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/SoCam$ProjectTest__1_.ic" NAME="ProjectTest (1) Coverage Results" MODIFIED="1524292478358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/SoCam$All_in_SoCam.ic" NAME="All in SoCam Coverage Results" MODIFIED="1524293751409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SoCam$All_in_SoCam.ic" NAME="All in SoCam Coverage Results" MODIFIED="1524294714627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Project.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/ntnu/fp/model/Project.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="195" column="47" selection-start-line="195" selection-start-column="23" selection-end-line="195" selection-end-column="48" />
+            <state relative-caret-position="211">
+              <caret line="236" column="7" lean-forward="true" selection-start-line="236" selection-start-column="7" selection-end-line="236" selection-end-column="7" />
               <folding>
                 <element signature="e#1212#1213#0" expanded="true" />
                 <element signature="e#1243#1244#0" expanded="true" />
@@ -42,11 +43,38 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Ecu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/no/ntnu/fp/model/Ecu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+              <folding>
+                <element signature="e#1514#1515#0" expanded="true" />
+                <element signature="e#1533#1534#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EcuTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/no/ntnu/fp/unittests/EcuTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
+                <element signature="e#649#650#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ProjectTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/ntnu/fp/unittests/ProjectTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1708">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="196">
+              <caret line="83" column="7" selection-start-line="83" selection-start-column="7" selection-end-line="83" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3439#3440#0" expanded="true" />
@@ -59,17 +87,17 @@
       <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/ntnu/fp/model/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
+            <state relative-caret-position="3806">
               <caret line="176" column="5" lean-forward="true" selection-start-line="176" selection-start-column="5" selection-end-line="176" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PersonTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/ntnu/fp/unittests/PersonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+            <state relative-caret-position="563">
+              <caret line="30" column="35" selection-end-line="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,6 +137,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/no/ntnu/fp/unittests/ProjectTest.java" />
         <option value="$PROJECT_DIR$/src/no/ntnu/fp/unittests/PersonTest.java" />
+        <option value="$PROJECT_DIR$/src/no/ntnu/fp/unittests/EcuTest.java" />
       </list>
     </option>
   </component>
@@ -426,23 +455,11 @@
       <updated>1523271325626</updated>
       <workItem from="1523271329145" duration="3589000" />
       <workItem from="1523984797486" duration="2214000" />
-      <workItem from="1523987369200" duration="13081000" />
+      <workItem from="1523987369200" duration="13991000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProjectTest_(1) - 2018.04.20 at 13h 16m 03s.xml">
-      <configuration name="ProjectTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProjectTest_(1) - 2018.04.20 at 13h 17m 06s.xml">
-      <configuration name="ProjectTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProjectTest_(1) - 2018.04.20 at 13h 17m 27s.xml">
-      <configuration name="ProjectTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProjectTest_(1) - 2018.04.20 at 13h 18m 05s.xml">
-      <configuration name="ProjectTest (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ProjectTest_(1) - 2018.04.21 at 08h 34m 40s.xml">
       <configuration name="ProjectTest (1)" configurationId="JUnit" />
     </history-entry>
@@ -461,9 +478,21 @@
     <history-entry file="All_in_SoCam - 2018.04.21 at 08h 52m 28s.xml">
       <configuration name="All in SoCam" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_SoCam - 2018.04.21 at 08h 53m 10s.xml">
+      <configuration name="All in SoCam" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_SoCam - 2018.04.21 at 08h 55m 00s.xml">
+      <configuration name="All in SoCam" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_SoCam - 2018.04.21 at 08h 55m 36s.xml">
+      <configuration name="All in SoCam" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_SoCam - 2018.04.21 at 08h 55m 54s.xml">
+      <configuration name="All in SoCam" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18884000" />
+    <option name="totallyTimeSpent" value="19794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -629,13 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/ntnu/fp/model/Ecu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/no/ntnu/fp/model/FactoryProject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -657,22 +679,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/ntnu/fp/unittests/ProjectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1708">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3439#3440#0" expanded="true" />
-            <element signature="e#3509#3510#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/no/ntnu/fp/model/Project.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="195" column="47" selection-start-line="195" selection-start-column="23" selection-end-line="195" selection-end-column="48" />
+        <state relative-caret-position="211">
+          <caret line="236" column="7" lean-forward="true" selection-start-line="236" selection-start-column="7" selection-end-line="236" selection-end-column="7" />
           <folding>
             <element signature="e#1212#1213#0" expanded="true" />
             <element signature="e#1243#1244#0" expanded="true" />
@@ -690,17 +700,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/no/ntnu/fp/model/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
+        <state relative-caret-position="3806">
           <caret line="176" column="5" lean-forward="true" selection-start-line="176" selection-start-column="5" selection-end-line="176" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/ntnu/fp/unittests/ProjectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="83" column="7" selection-start-line="83" selection-start-column="7" selection-end-line="83" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3439#3440#0" expanded="true" />
+            <element signature="e#3509#3510#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/no/ntnu/fp/unittests/PersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        <state relative-caret-position="563">
+          <caret line="30" column="35" selection-end-line="45" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/ntnu/fp/model/Ecu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+          <folding>
+            <element signature="e#1514#1515#0" expanded="true" />
+            <element signature="e#1533#1534#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/ntnu/fp/unittests/EcuTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
           </folding>
         </state>
       </provider>
