@@ -105,6 +105,12 @@ public class FactoryProjectTest {
         Assert.assertEquals(1, factoryProjectTwo.getVehicleIndex("Searchable 3"));
     }
 
+    @org.junit.jupiter.api.Test
+    void indexOf_object_returns_correct_index(){
+        Assert.assertEquals(0, vehicleList.indexOf(vehicleOne));
+    }
+
+
 
 
 
