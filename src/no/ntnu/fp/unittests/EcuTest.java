@@ -57,14 +57,31 @@ class EcuTest {
 
     @org.junit.jupiter.api.AfterEach
     void isNewest_retuns_newest_boolean(){
-        Assert.assertEquals(true, ecuThree.isNewest());
+        Assert.assertEquals(false, ecuThree.isNewest());
     }
 
     @org.junit.jupiter.api.AfterEach
     void setNewest_changes_isNewest(){
         ecuThree.setNewest(false);
-        Assert.assertEquals(false, ecuThree.ge);
+        Assert.assertEquals(false, ecuThree.getNewest());
     }
+
+    @org.junit.jupiter.api.AfterEach
+    void getECUID_PROPERTY_NAME_retuds_ECUID_PROPERTY_NAME(){
+        Assert.assertEquals("ecuId", ecuThree.getECUID_PROPERTY_NAME());
+    }
+
+    @org.junit.jupiter.api.AfterEach
+    void getNewestSub_returns_newestSub(){
+        Assert.assertEquals(9, ecuThree.getNewestSub());
+    }
+
+    @org.junit.jupiter.api.AfterEach
+    void setNewestSub_sets_newestSub(){
+        ecuThree.setNewestSub(55);
+        Assert.assertEquals(55, ecuThree.getNewestSub());
+    }
+
 
     @org.junit.jupiter.api.AfterEach
     void tearDown() {
