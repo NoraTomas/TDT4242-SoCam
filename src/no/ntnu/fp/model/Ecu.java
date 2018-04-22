@@ -81,6 +81,12 @@ public class Ecu {
 	public void setNewest(boolean newest) {
 		this.newest = newest;
 	}
+
+	public boolean getNewest(){
+		return this.newest;
+
+	}
+
 	public static String getECUID_PROPERTY_NAME() {
 		return ECUID_PROPERTY_NAME;
 	}

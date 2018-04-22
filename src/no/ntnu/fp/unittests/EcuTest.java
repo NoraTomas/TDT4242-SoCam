@@ -63,7 +63,7 @@ class EcuTest {
     @org.junit.jupiter.api.AfterEach
     void setNewest_changes_isNewest(){
         ecuThree.setNewest(false);
-        //Assert.assertEquals(false, ecuThree.ge);
+        Assert.assertEquals(false, ecuThree.ge);
     }
 
     @org.junit.jupiter.api.AfterEach
