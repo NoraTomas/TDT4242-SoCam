@@ -37,6 +37,7 @@ public class SimpleEcu {
 	public void removePropertyChangeListener(PropertyChangeListener listener) {
 		propChangeSupp.removePropertyChangeListener(listener);
 	}
+
 	public int getEcuId() {
 		return ecuId;
 	}
