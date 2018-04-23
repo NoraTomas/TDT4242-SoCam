@@ -59,6 +59,16 @@ public class FactoryProjectTest {
     }
 
     @org.junit.jupiter.api.Test
+    void getVehicle_returns_correct_vehicle(){
+        Assert.assertEquals(vehicleOne, factoryProjectTwo.getVehicle(0));
+    }
+
+    @org.junit.jupiter.api.Test
+    void getSoftware_returns_correct_software(){
+        Assert.assertEquals(softwareOne, factoryProjectTwo.getSoftware(0));
+    }
+
+    @org.junit.jupiter.api.Test
     void getVehicle_returns_vehicle(){
         Assert.assertEquals(vehicleOne, vehicleList.get(0));
     }
@@ -140,6 +150,8 @@ public class FactoryProjectTest {
     @org.junit.jupiter.api.Test
     void equal_compares_objects_correctly(){
         FactoryProject toBeCompared = new FactoryProject();
+        toBeCompared.addVehicle(new Vehicle());
+        toBeCompared.addVehicle(new Vehicle());
         Assert.assertEquals(false, factoryProjectTwo.equals(toBeCompared));
     }
 
