@@ -110,6 +110,48 @@ public class FactoryProjectTest {
         Assert.assertEquals(0, vehicleList.indexOf(vehicleOne));
     }
 
+    @org.junit.jupiter.api.Test
+    void addVehicle_adds_vehicle(){
+        Vehicle toBeAdded = new Vehicle();
+        factoryProjectTwo.addVehicle(toBeAdded);
+        Assert.assertEquals(toBeAdded, factoryProjectTwo.getLatestVehicle());
+    }
+
+    @org.junit.jupiter.api.Test
+    void addSoftware_adds_software(){
+        Software toBeAdded = new Software();
+        factoryProjectTwo.addSoftware(toBeAdded);
+        Assert.assertEquals(toBeAdded, factoryProjectTwo.getLatestSoftware());
+    }
+
+    @org.junit.jupiter.api.Test
+    void addEcu_adds_eCu(){
+        SimpleEcu toBeAdded = new SimpleEcu(5);
+        factoryProjectTwo.addEcu(toBeAdded);
+        Assert.assertEquals(toBeAdded, factoryProjectTwo.getLatestEcu());
+    }
+
+    @org.junit.jupiter.api.Test
+    void remove_vehicle_removes_vehicle(){
+        factoryProjectTwo.removeVehicle(vehicleTwo);
+        Assert.assertEquals(vehicleOne, factoryProjectTwo.getLatestVehicle());
+    }
+
+    @org.junit.jupiter.api.Test
+    void equal_compares_objects_correctly(){
+        FactoryProject toBeCompared = new FactoryProject();
+        Assert.assertEquals(false, factoryProjectTwo.equals(toBeCompared));
+    }
+
+    @org.junit.jupiter.api.Test
+    void toString_returns_correct_string(){
+        Assert.assertEquals("project:\n", factoryProjectOne.toString());
+    }
+
+
+
+
+
 
 
 
