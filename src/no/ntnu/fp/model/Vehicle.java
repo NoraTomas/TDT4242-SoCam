@@ -71,7 +71,6 @@ public class Vehicle implements PropertyChangeListener  {
 	}
 	
 	public boolean contains(Ecu ecu){
-
 		return (ecus.contains(ecu));
 	}
 	
